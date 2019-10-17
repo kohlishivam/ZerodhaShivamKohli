@@ -19,7 +19,7 @@ URL = 'https://www.bseindia.com/markets/equity/EQReports/Equitydebcopy.aspx'
 def file_downloder():
     '''
     Fetches the URL where the zip file is located
-    Also it downloads the zip and stores the file downloaded
+    And downloads the zip and stores the file downloaded
     '''
     url = urlopen(URL)
     html = url.read()
